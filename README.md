@@ -2,4 +2,6 @@
 
 ## this is a sample project to demonstrate how to write a README file.
 
-### Features asjdkals:      
+### Features:
+- Feature 1: Description of feature 1.  # noqa: E999
+- Feature 2: Description of feature 2.  # noqa: E999
