@@ -55,8 +55,6 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 > [!Note] 
 > This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
 
-<br>
-
 ### Types
 - Changes relevant to the API or UI:
     - `feat` Commits that add, adjust or remove a feature to/of/from the API or UI
