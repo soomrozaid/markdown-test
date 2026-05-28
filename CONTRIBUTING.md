@@ -154,8 +154,6 @@ style: remove empty line
 
 <a href="#table-of-contents">Back to the Top</a>
 
-<br>
-
 ---
 
 ## Versioning
@@ -179,8 +177,6 @@ style: remove empty line
 <br>
 
 <a href="#table-of-contents">Back to the Top</a>
-
-<br>
 
 ---
 
