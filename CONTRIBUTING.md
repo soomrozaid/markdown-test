@@ -17,7 +17,18 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
 ## Table of Contents
 - [Commit Message Conventions](#commit-message-conventions)
+  - [Commit Message Structure](#commit-message-structure)
+  - [CLI Command](#cli-command)
+  - [Types](#types)
+  - [Scopes](#scopes)
+  - [Breaking Changes Indicator](#breaking-changes-indicator)
+  - [Description](#description)
+  - [Body](#body)
+  - [Footer](#footer)
+  - [Examples](#examples)
 - [Versioning](#versioning)
+  - [Rules](#rules)
+  - [Examples](#examples-1)
 - [References](#references)
 
 <br>
