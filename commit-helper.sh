@@ -1,5 +1,5 @@
 #!/bin/bash
-
+    
 # Universal draw_menu: pass the options as arguments to the function.
 # `draw_menu` only draws the menu given the current `options`, `choices`, and `cursor`.
 draw_menu() {
