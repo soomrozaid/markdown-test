@@ -163,7 +163,7 @@ style: remove empty line
 <br>
 <br>
 
-<a href="#table-of-contents">Back to the Top</a>
+<a href="#table-of-contents">↑ Back to the Top</a>
 
 ---
 
@@ -187,7 +187,7 @@ style: remove empty line
 <br>
 <br>
 
-<a href="#table-of-contents">Back to the Top</a>
+<a href="#table-of-contents">↑ Back to the Top</a>
 
 ---
 
@@ -200,4 +200,4 @@ style: remove empty line
 <br>
 <br>
 
-<a href="#table-of-contents">Back to the Top</a>
+<a href="#table-of-contents">↑ Back to the Top</a>
