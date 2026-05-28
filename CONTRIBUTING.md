@@ -11,7 +11,9 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 > [!Note] 
 > This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/) -->
 
-# RULES FOR CONTRIBUTING  
+# RULES FOR CONTRIBUTING 
+<br>
+<br> 
 
 ## Table of Contents
 - [Commit Message Conventions](#commit-message-conventions)
@@ -21,7 +23,7 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 > [!Note]
 > The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
-
+<br>
 <br>
 
 ## Commit Message Conventions
@@ -146,6 +148,7 @@ style: remove empty line
 
 <a href="#table-of-contents">Back to the Top</a>
 <br>
+<br>
 
 ## Versioning
 
@@ -166,6 +169,7 @@ style: remove empty line
 
 <a href="#table-of-contents">Back to the Top</a>
 <br>
+<br>
 
 ## References 
 - https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
@@ -175,4 +179,3 @@ style: remove empty line
 
 
 <a href="#table-of-contents">Back to the Top</a>
-<br>
