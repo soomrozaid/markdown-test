@@ -23,8 +23,10 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 <br>
 <br>
 
+```
 > [!Note]
 > The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+```
 
 <br>
 
@@ -50,9 +52,10 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
   -m"<b><a href="#footer">&lt;optional footer&gt;</a></b>"
 </pre>
 
+```
 > [!Note] 
 > This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
-
+```
 
 ### Types
 - Changes relevant to the API or UI:
