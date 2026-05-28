@@ -27,7 +27,6 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 > The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 <br>
-<br>
 
 ---
 
@@ -150,6 +149,7 @@ style: remove empty line
 </details>
 </details>
 
+<br>
 
 <a href="#table-of-contents">Back to the Top</a>
 
@@ -175,6 +175,8 @@ style: remove empty line
 - `refactor: rewrite API implementation` 1.0.0 → 1.0.1
 - `feat!: remove API endpoint` 1.0.0 → 2.0.0
 
+<br>
+
 <a href="#table-of-contents">Back to the Top</a>
 
 <br>
@@ -188,5 +190,6 @@ style: remove empty line
 - https://git-scm.com/docs/git-interpret-trailers
 - https://www.ietf.org/rfc/rfc2119.txt
 
+<br>
 
 <a href="#table-of-contents">Back to the Top</a>
