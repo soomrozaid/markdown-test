@@ -32,6 +32,10 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
 ## Commit Message Conventions
 
+> [!Note] 
+> This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
+
+
 ### Commit Message Structure
 <pre>
 <b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scopes">&lt;optional scope&gt;</a></b>): <b><a href="#description">&lt;description&gt;</a></b>
@@ -49,11 +53,6 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
   -m"<b><a href="#body">&lt;optional body&gt;</a></b>" \
   -m"<b><a href="#footer">&lt;optional footer&gt;</a></b>"
 </pre>
-
-<br>
-
-> [!Note] 
-> This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
 
 ### Types
 - Changes relevant to the API or UI:
