@@ -18,5 +18,5 @@ echo "Selected items (count: ${#selected[@]}):"
 for item in "${selected[@]}"; do
   echo "- ${item}"
 done
-
+    
 exit 0
