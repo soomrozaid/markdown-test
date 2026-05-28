@@ -35,7 +35,17 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 <br>
 
 > [!Note]
-> The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
+> The key words in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form, as shown below.: 
+> - “MUST”, 
+> - “MUST NOT”,
+> - “REQUIRED”,
+> -“SHALL”,
+> - “SHALL NOT”,
+> - “SHOULD”,
+> - “SHOULD NOT”,
+> - “RECOMMENDED”,
+> - “MAY”,
+> - “OPTIONAL”
 
 <br>
 
@@ -85,8 +95,8 @@ The `scope` provides additional contextual information.
 * **Do not** use issue identifiers as scopes
 
 ### Breaking Changes Indicator
-- A commit that introduce breaking changes **must** be indicated by an `!` before the `:` in the subject line e.g. `feat(api)!: remove status endpoint`
-- Breaking changes **should** be described in the [commit footer section](#footer), if the [commit description](#description) isn't sufficiently informative
+- A commit that introduce breaking changes **MUST** be indicated by an `!` before the `:` in the subject line e.g. `feat(api)!: remove status endpoint`
+- Breaking changes **MUST** be described in the [commit footer section](#footer)
 
 ### Description
 The `description` contains a concise description of the change. 
