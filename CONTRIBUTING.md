@@ -33,7 +33,7 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 ## Commit Message Conventions
 
 > [!Note] 
-> This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
+> This convention is an opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
 
 
 ### Commit Message Structure
