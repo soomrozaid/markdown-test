@@ -150,10 +150,10 @@ style: remove empty line
 </details>
 
 <br>
+<br>
 
 <a href="#table-of-contents">Back to the Top</a>
 
-<br>
 <br>
 
 ---
@@ -176,10 +176,10 @@ style: remove empty line
 - `feat!: remove API endpoint` 1.0.0 → 2.0.0
 
 <br>
+<br>
 
 <a href="#table-of-contents">Back to the Top</a>
 
-<br>
 <br>
 
 ---
@@ -190,6 +190,7 @@ style: remove empty line
 - https://git-scm.com/docs/git-interpret-trailers
 - https://www.ietf.org/rfc/rfc2119.txt
 
+<br>
 <br>
 
 <a href="#table-of-contents">Back to the Top</a>
