@@ -1,5 +1,5 @@
 #!/bin/bash
-
+     
 # Example script showing how to reuse commit-helper.sh's menu functions.
 # Place this file next to commit-helper.sh and run it.
 
