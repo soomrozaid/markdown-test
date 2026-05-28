@@ -21,6 +21,9 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 > [!Note]
 > The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
+
+<br>
+
 ## Commit Message Conventions
 
 ### Commit Message Structure
@@ -140,6 +143,10 @@ style: remove empty line
 </details>
 </details>
 
+
+<a href="#table-of-contents">Back to the Top</a>
+<br>
+
 ## Versioning
 
 ### Rules
@@ -157,6 +164,9 @@ style: remove empty line
 - `refactor: rewrite API implementation` 1.0.0 → 1.0.1
 - `feat!: remove API endpoint` 1.0.0 → 2.0.0
 
+<a href="#table-of-contents">Back to the Top</a>
+<br>
+
 ## References 
 - https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13
 - https://www.conventionalcommits.org/
@@ -164,4 +174,5 @@ style: remove empty line
 - https://www.ietf.org/rfc/rfc2119.txt
 
 
-<a href="#top" style="position: fixed; bottom: 20px; right: 20px; padding: 10px; border: 1px solid #777; color: #777; outline: none; text-decoration: none;">↑ Top</a>
+<a href="#table-of-contents">Back to the Top</a>
+<br>
