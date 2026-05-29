@@ -82,6 +82,27 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 - `ops` Commits that affect operational aspects like infrastructure (IaC), deployment scripts, CI/CD pipelines, backups, monitoring, or recovery procedures, ...
 - `chore` Commits that represent tasks like initial commit, modifying `.gitignore`, ...
 
+  <br>
+  <details>
+  <summary><b>When to use each TYPE?</b></summary>
+  <br>
+
+  > _Did you fix a bug?_ **Yes**: It's `fix`: <br>
+  > **No**: _Did you change functionality or affect UI?_ **Yes**: It's `feat`: <br>
+  > **No**: _Did you add or change tests?_ **Yes**: It's `test`: <br>
+  > **No**: _Did you change code style or formatting (doesn't affect code behaviour)?_ **Yes**: It's `style`: <br>
+  > **No**: _Did you make changes to documentation?_ **Yes**: It's `docs`: <br>
+  > **No**: _Did you change how the project is built (eg. packages, dependencies, dockerfile, etc)?_ **Yes**: It's `build`: <br>
+  > **No**: _Did you change something related to devops (eg. operational, deployment/CI/linting pipelines)?_ **Yes**: It's `ops`: <br>
+  > **No**: _Did you complete a maintenance task or other non-code task for the project (eg. modifying .gitignore or making initial commit)?_ **Yes**: It's `chore`: <br>
+  > **No**: _Did you rewrite or restructure code specifically for performance?_ **Yes**: It's `perf`: <br>
+  > **No**: It's `refactor`: <br>
+  >
+  > **Note**: If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
+  >
+  > Check out this [mermaid diagram](https://gist.github.com/JohnnyWalkerDigital/7207004e8efd79751dbf55ece0420ef2)
+  </details>
+
 ### Scopes
 The `scope` provides additional contextual information.
 * The scope is an **OPTIONAL** part
@@ -161,7 +182,6 @@ refactor: implement fibonacci number calculation as recursion
 ```
 style: remove empty line
 ```
-</details>
 </details>
 
 <br>
