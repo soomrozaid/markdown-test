@@ -84,7 +84,7 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
   <br>
   <details>
-  <summary><b>When to use each commit [type](#types)?</b></summary>
+  <summary><b>When to use each [commit type](#types) ?</b></summary>
   <br>
   
   >
