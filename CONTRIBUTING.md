@@ -17,6 +17,8 @@ This is a set of rules and guidelines for contributing to this project. Followin
 > **MAY**,
 > **OPTIONAL**.
 
+<br>
+
 ---
 
 ## Table of Contents
@@ -42,9 +44,12 @@ This is a set of rules and guidelines for contributing to this project. Followin
 
 ## Commit Message Conventions
 
+<br>
+
 > [!Note] 
 > This convention is an opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/)
 
+<br>
 
 ### Commit Message Structure
 <pre>
