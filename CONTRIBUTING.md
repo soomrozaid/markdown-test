@@ -26,6 +26,7 @@ This is a set of rules and guidelines for contributing to this project. Followin
   - [Commit Message Structure](#commit-message-structure)
   - [CLI Command](#cli-command)
   - [Types](#types)
+    - [When to use each commit type?](#when-to-use-each-commit-type)
   - [Scopes](#scopes)
   - [Breaking Changes Indicator](#breaking-changes-indicator)
   - [Description](#description)
@@ -82,30 +83,29 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 - `ops` Commits that affect operational aspects like infrastructure (IaC), deployment scripts, CI/CD pipelines, backups, monitoring, or recovery procedures, ...
 - `chore` Commits that represent tasks like initial commit, modifying `.gitignore`, ...
 
-  <br>
-  <details>
-  <summary><b>When to use each commit type?</b></summary>
-  <br>
-  
-  >
-  > _Did you fix a bug?_ **Yes**: It's `fix`: <br>
-  > **No**: _Did you change functionality or affect UI?_ **Yes**: It's `feat`: <br>
-  > **No**: _Did you add or change tests?_ **Yes**: It's `test`: <br>
-  > **No**: _Did you change code style or formatting (doesn't affect code behaviour)?_ **Yes**: It's `style`: <br>
-  > **No**: _Did you make changes to documentation?_ **Yes**: It's `docs`: <br>
-  > **No**: _Did you change how the project is built (eg. packages, dependencies, dockerfile, etc)?_ **Yes**: It's `build`: <br>
-  > **No**: _Did you change something related to devops (eg. operational, deployment/CI/linting pipelines)?_ **Yes**: It's `ops`: <br>
-  > **No**: _Did you complete a maintenance task or other non-code task for the project (eg. modifying .gitignore or making initial commit)?_ **Yes**: It's `chore`: <br>
-  > **No**: _Did you rewrite or restructure code specifically for performance?_ **Yes**: It's `perf`: <br>
-  > **No**: It's `refactor`: <br>
-  >
-  > Check out this [mermaid diagram](https://gist.github.com/JohnnyWalkerDigital/7207004e8efd79751dbf55ece0420ef2)
+<br>
+<details>
+<summary id="when-to-use-each-commit-type"><b>When to use each commit type?</b></summary>
+<br>
 
-  <br>
+> _Did you fix a bug?_ **Yes**: It's `fix`: <br>
+> **No**: _Did you change functionality or affect UI?_ **Yes**: It's `feat`: <br>
+> **No**: _Did you add or change tests?_ **Yes**: It's `test`: <br>
+> **No**: _Did you change code style or formatting (doesn't affect code behaviour)?_ **Yes**: It's `style`: <br>
+> **No**: _Did you make changes to documentation?_ **Yes**: It's `docs`: <br>
+> **No**: _Did you change how the project is built (eg. packages, dependencies, dockerfile, etc)?_ **Yes**: It's `build`: <br>
+> **No**: _Did you change something related to devops (eg. operational, deployment/CI/linting pipelines)?_ **Yes**: It's `ops`: <br>
+> **No**: _Did you complete a maintenance task or other non-code task for the project (eg. modifying .gitignore or making initial commit)?_ **Yes**: It's `chore`: <br>
+> **No**: _Did you rewrite or restructure code specifically for performance?_ **Yes**: It's `perf`: <br>
+> **No**: It's `refactor`: <br>
+>
+> Check out this [mermaid diagram](https://gist.github.com/JohnnyWalkerDigital/7207004e8efd79751dbf55ece0420ef2)
 
-  **Note:** If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
+<br>
 
-  </details>
+**Note:** If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
+
+</details>
 
 ### Scopes
 The `scope` provides additional contextual information.
