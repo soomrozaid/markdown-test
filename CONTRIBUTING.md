@@ -1,17 +1,23 @@
-<!-- # Commit Message Conventions
-
-See examples of acceptable [commit messages](#examples). 
-
-<pre>
-git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scopes">&lt;optional scope&gt;</a></b>): <b><a href="#description">&lt;description&gt;</a></b>" \
-  -m"<b><a href="#body">&lt;optional body&gt;</a></b>" \
-  -m"<b><a href="#footer">&lt;optional footer&gt;</a></b>"
-</pre>
-
-> [!Note] 
-> This cheatsheet is opinionated standard that follows the specification outlined in [conventional commits](https://www.conventionalcommits.org/) -->
-
 # RULES FOR CONTRIBUTING 
+
+This is a set of rules and guidelines for contributing to this project. By following these rules, you can help maintain a high-quality codebase and ensure that your contributions are accepted smoothly.
+
+> [!Note]
+> The key words in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form: 
+> **MUST**,
+> **MUST NOT**,
+> **REQUIRED**,
+> **SHALL**,
+> **SHALL NOT**,
+> **SHOULD**,
+> **SHOULD NOT**,
+> **RECOMMENDED**,
+> **MAY**,
+> **OPTIONAL**.
+
+<br>
+
+---
 
 <br> 
 
@@ -32,21 +38,6 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 - [References](#references)
 
 <br>
-<br>
-
-> [!Note]
-> The key words in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form: 
-> **MUST**,
-> **MUST NOT**,
-> **REQUIRED**,
-> **SHALL**,
-> **SHALL NOT**,
-> **SHOULD**,
-> **SHOULD NOT**,
-> **RECOMMENDED**,
-> **MAY**,
-> **OPTIONAL**.
-
 <br>
 
 ---
