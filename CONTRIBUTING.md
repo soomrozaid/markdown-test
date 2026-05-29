@@ -1,6 +1,6 @@
 # RULES FOR CONTRIBUTING 
 
-This is a set of rules and guidelines for contributing to this project. Following these rules, will help maintain a high-quality codebase and ensure that your contributions are accepted smoothly.
+This is a set of rules and guidelines for contributing to this project. Following these rules, will help maintain a high-quality codebase and ensure that contributions are accepted smoothly.
 
 <br>
 
