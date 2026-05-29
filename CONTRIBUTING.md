@@ -84,9 +84,9 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
   <br>
   <details>
-  <summary><b>When to use each TYPE?</b></summary>
+  <summary><b>When to use each commit [type](#types)?</b></summary>
   <br>
-
+  >
   > _Did you fix a bug?_ **Yes**: It's `fix`: <br>
   > **No**: _Did you change functionality or affect UI?_ **Yes**: It's `feat`: <br>
   > **No**: _Did you add or change tests?_ **Yes**: It's `test`: <br>
@@ -98,9 +98,10 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
   > **No**: _Did you rewrite or restructure code specifically for performance?_ **Yes**: It's `perf`: <br>
   > **No**: It's `refactor`: <br>
   >
-  > **Note**: If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
-  >
   > Check out this [mermaid diagram](https://gist.github.com/JohnnyWalkerDigital/7207004e8efd79751dbf55ece0420ef2)
+
+
+  **Note**: If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
   </details>
 
 ### Scopes
