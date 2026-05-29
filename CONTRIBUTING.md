@@ -103,6 +103,11 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
 <br>
 
+> [!Note]
+> If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
+
+<br>
+
 **Note:** If your commit includes multiple types of changes, split them into separate commits to maintain clarity and adhere to the convention.
 
 </details>
