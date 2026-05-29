@@ -1,9 +1,11 @@
 # RULES FOR CONTRIBUTING 
 
-This is a set of rules and guidelines for contributing to this project. By following these rules, you can help maintain a high-quality codebase and ensure that your contributions are accepted smoothly.
+This is a set of rules and guidelines for contributing to this project. Following these rules, will help maintain a high-quality codebase and ensure that your contributions are accepted smoothly.
+
+<br>
 
 > [!Note]
-> The key words in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form: 
+> The following keywords in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form: 
 > **MUST**,
 > **MUST NOT**,
 > **REQUIRED**,
@@ -15,11 +17,7 @@ This is a set of rules and guidelines for contributing to this project. By follo
 > **MAY**,
 > **OPTIONAL**.
 
-<br>
-
 ---
-
-<br> 
 
 ## Table of Contents
 - [Commit Message Conventions](#commit-message-conventions)
