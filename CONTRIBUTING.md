@@ -36,16 +36,16 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
 > [!Note]
 > The key words in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt) when, and only when, they appear in all uppercase form, as shown below: 
-> - **MUST**
-> - **MUST NOT**
-> - **REQUIRED**
-> - **SHALL**
-> - **SHALL NOT**
-> - **SHOULD**
-> - **SHOULD NOT**
-> - **RECOMMENDED**
-> - **MAY**
-> - **OPTIONAL**
+> **MUST**
+> **MUST NOT**
+> **REQUIRED**
+> **SHALL**
+> **SHALL NOT**
+> **SHOULD**
+> **SHOULD NOT**
+> **RECOMMENDED**
+> **MAY**
+> **OPTIONAL**
 
 <br>
 
@@ -90,9 +90,9 @@ git commit -m"<b><a href="#types">&lt;type&gt;</a></b></font>(<b><a href="#scope
 
 ### Scopes
 The `scope` provides additional contextual information.
-* The scope is an **optional** part
+* The scope is an **OPTIONAL** part
 * Allowed scopes vary and are typically defined by the specific project
-* **Do not** use issue identifiers as scopes
+* **MUST NOT** use issue identifiers as scopes
 
 ### Breaking Changes Indicator
 - A commit that introduce breaking changes **MUST** be indicated by an `!` before the `:` in the subject line e.g. `feat(api)!: remove status endpoint`
@@ -100,23 +100,23 @@ The `scope` provides additional contextual information.
 
 ### Description
 The `description` contains a concise description of the change. 
-- The description is a **mandatory** part
+- The description is a **MANDATORY** part
 - Use the imperative, present tense: "change" not "changed" nor "changes"
   - Think of `This commit will...` or `This commit should...`
-- **Do not** capitalize the first letter
-- **Do not** end the description with a period (`.`)
+- **MUST NOT** capitalize the first letter
+- **MUST NOT** end the description with a period (`.`)
 - In case of breaking changes also see [breaking changes indicator](#breaking-changes-indicator)
 
 ### Body
 The `body` should include the motivation for the change and contrast this with previous behavior.
-- The body is an **optional** part
+- The body is an **OPTIONAL** part
 - Use the imperative, present tense: "change" not "changed" nor "changes"
 
 ### Footer
 The `footer` should contain issue references and informations about **Breaking Changes**
-- The footer is an **optional** part, except if the commit introduce breaking changes
-- *Optionally* reference issue identifiers (e.g., `Closes #123`, `Fixes JIRA-456`) 
-- **Breaking Changes** **must** start with the word `BREAKING CHANGE:`
+- The footer is an **OPTIONAL** part, except if the commit introduce breaking changes
+- **OPTIONAL** reference issue identifiers (e.g., `Closes #123`, `Fixes JIRA-456`) 
+- **Breaking Changes:** **MUST** start with the word `BREAKING CHANGE:`
   - For a single line description just add a space after `BREAKING CHANGE:`
   - For a multi line description add two new lines after `BREAKING CHANGE:`
 
